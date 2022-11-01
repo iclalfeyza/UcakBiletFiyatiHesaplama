@@ -19,7 +19,7 @@ public class flight {
         double totalFee = km*0.10, discountedFee, discount;
 
         if ((km <= 0) || (age <= 0) || ((flightType != 1) && (flightType != 2))) {
-            System.out.println("You have entered an uncorrect info.");
+            System.out.println("You have entered an incorrect info.");
         } else {
             if (age < 12) {
                 discountedFee = totalFee - totalFee*0.5;
